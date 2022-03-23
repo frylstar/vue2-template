@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+# To lint commits before they are created you can use Husky's commit-msg hook:
+npx --no-install commitlint --edit "$1"
