@@ -8,5 +8,7 @@ module.exports = {
   // jsxBracketSameLine: false,
   arrowParens: "avoid", // Include parentheses around a sole arrow function parameter
   htmlWhitespaceSensitivity: "ignore",
+  // trailingCommas: "all",
   // endOfLine: "auto",
+  // requirePragma: false, // Prettier can restrict itself to only format files that contain a special comment
 }
